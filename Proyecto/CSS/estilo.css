@@ -19,20 +19,38 @@ nav ul{
   margin:0;
   padding: 0;
 }
- nav ul li a{
+ #s1{
   text-decoration: none;
   color: #000000;
   font-weight: bold;
   font-size: 23.5px;
  }
 
+ #s2{
+  text-decoration: none;
+  color: #000000;
+  font-weight: bold;
+  font-size: 23.5px;
+ }
+ #s3{
+  text-decoration: none;
+  color: #000000;
+  font-weight: bold;
+  font-size: 23.5px;
+ }
+ #s4{
+  text-decoration: none;
+  color: #000000;
+  font-weight: bold;
+  font-size: 23.5px;
+ }
  #imagen{
   display: block;
   cursor: pointer;
  }
 #s5{
   background-color: #5fa640;
-  color: rgb(255, 254, 254);
+  color: white;
   text-decoration: none;
   padding: 12px 20px;
   border-radius: 10px;
@@ -67,9 +85,37 @@ p{
   font-optical-sizing: auto;
   font-weight: 400;
   font-style: normal;
+  font-size: 1.7rem;
+  padding-left: 70px;
+  padding-right: 70px;
 }
 
 .contenedor{
   display: flex;
   flex-direction: row;
+}
+
+.botones{
+  display: flex;
+  gap: 20px; /* Espacio entre botones */
+  margin-top: 30px;
+}
+
+#b1{
+  background-color: #5fa640;
+  color: white;
+  text-decoration: none;
+  padding: 12px 20px;
+  border-radius: 10px;
+  font-size: 18px;
+  font-weight: bold;
+}
+#b2{
+  background-color: #fd9a49;
+  color: white;
+  text-decoration: none;
+  padding: 12px 20px;
+  border-radius: 10px;
+  font-size: 18px;
+  font-weight: bold;
 }
