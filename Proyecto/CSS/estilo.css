@@ -4,15 +4,25 @@
   box-sizing: border-box;
 }
 
-#header{
+header{
   position: sticky;
   top: 0;
   z-index: 1000;
   display: flex;
   background: #fd9a49;
   flex-direction: row;
-  justify-content: space-between;
-  padding: 0px;
+  justify-content: right;
+  padding: 2px;
+}
+
+#logo-container{
+  place-items: initial;
+}
+
+img,
+picture,
+video {
+  max-width: 100%;
 }
 
 div{
@@ -33,13 +43,14 @@ nav ul li a{
   text-decoration: none;
   color: black;
   font-weight: bold;
-  font-size: 23.5px;
+  font-size: 18px;
 }
  
- #imagen{
-  display: block;
+ #logo{
+  display: flex;
   cursor: pointer;
  }
+
 #s5{
   background-color: #5fa640;
   color: white;
