@@ -19,20 +19,69 @@
         ¡Bienvenido a FeedTogether!
     </h1>
 
-    <div class="mb-3">
-        <label for="" class="form-label">Email</label>
-        <input
-            type="email"
-            class="form-control"
-            name=""
-            id=""
-            aria-describedby="emailHelpId"
-            placeholder="abc@mail.com"
-        />
-        <small id="emailHelpId" class="form-text text-body-secondary"
-            >Help text</small
-        >
+    <div class="card m-1" >
+        <div class="row g-0">
+            <div class="col-md-7">
+                <img
+                    src=""
+                    class="img-fluid rounded-start"
+                    alt="Card title"
+                />
+            </div>
+            <div class="col-md-5">
+                <div class="card-body">
+                    <form class="m-2">
+                        <div class="mb-3">
+                            <label for="" class="form-label">Correo Electrónico</label>
+                            <input
+                                type="email"
+                                class="form-control"
+                                name=""
+                                id=""
+                                aria-describedby="emailHelpId"
+                                placeholder="email@mail.com"
+                            />
+                            <small id="emailHelpId" class="form-text text-body-secondary"
+                            >Help text</small
+                            >
+                        </div>
+                        <div class="mb-3">
+                            <label for="" class="form-label">Nombre completo</label>
+                            <input
+                            type="text"
+                            class="form-control"
+                            name=""
+                            id=""
+                            aria-describedby="helpId"
+                            placeholder=""
+                            />
+                            <small id="helpId" class="form-text text-body-secondary"
+                            >Help text</small
+                            >
+                        </div>
+                        <div class="mb-3">
+                            <label for="" class="form-label">Número Telefonico</label>
+                            <input
+                                type="text"
+                                class="form-control"
+                                name=""
+                                id=""
+                                aria-describedby="helpId"
+                                placeholder=""
+                            />
+                            <small id="helpId" class="form-text text-body-secondary"
+                                >Help text</small
+                            >
+                        </div>
+                        
+        
+                    </form>
+                </div>
+            </div>
+        </div>
     </div>
+    
+    
     
 
 
