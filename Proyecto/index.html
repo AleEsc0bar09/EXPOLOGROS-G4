@@ -2,128 +2,149 @@
 <html lang="en">
 <head>
    <meta charset="UTF-8">
-   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-   <title>Home | FeedTogether</title>
-   <link rel="stylesheet" href="CSS/estilo.css">
-   
-   <!--Google fonts links below-->
-   <link rel="preconnect" href="https://fonts.googleapis.com">
-   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-   <link href="https://fonts.googleapis.com/css2?family=Chau+Philomene+One:ital@0;1&display=swap" rel="stylesheet">
-   <link href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
-   
-   <!--Bootstrap link below -->
-   <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-sRIl4kxILFvY47J16cr9ZwB07vP4J8+LH7qKQnuqkuIAvNWLzeN8tE5YBujZqJLB" crossorigin="anonymous">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>FeedTogether</title>
+
+    <!-- Bootstrap -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.7/dist/css/bootstrap.min.css" rel="stylesheet">
+
+    <!-- CSS -->
+    <link rel="stylesheet" href="CSS/estilo.css">
 </head>
 <body >
-   <header>
-      <div id="logo-container">
-         <a>
-            <img id="logo"src="img/image-removebg-preview.png">
-         </a>
-      </div>
-      
-      <nav id="link">
-         <ul>
-            <li><a class="links" href="solicitudes.html">Solicitudes</a></li>
-            <li><a class="links" href="voluntarios.html">Voluntariados</a></li>
-            <li><a class="links" href="historia de exito.html">Historia de éxito</a></li>
-            <li><a class="links" href="sobre nosotros.html">Sobre nosotros</a></li>
-            <li><a class="links"  id="s5" href="iniciar sesion.html">Iniciar sesión</a></li>
-         </ul>
-      </nav>
-   </header>
-   
-   <br>
-   <br>
-   <div class="contenedordetodo">
-      <div class="contenedor">
-         <div>
-            <h1>Conectamos alimentos con conquienes más lo necesitan</h1>
-         </div>
-         <div>
-         <p>Plataforma que une comunidades, empresas y voluntarios para combatir el hambre en El Salvador.</p>
-         </div>
-         <div class="botones">
-         <a id="b1" href="">Quiero ayudar</a>
-         <a id="b2" href="">Necesito ayuda</a>
-         </div>
-         
-      </div>
+   <!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
 
-      <div class="contenedor">
-         <div>
-            <img src="img/Screenshot 2026-07-09 100553.png" class="imagen1" >
-         </div>
-      </div>
-   </div>
+    <title>Red de Alimentos</title>
 
-   <nav >
-      <ul class="contenedor2">
-         <li><img src="img/en blanco.png" height="85" width="122"></li>
-         <li><p><b>50+</b></p>
-            <p>Familias apoyadas</p></li>
-         <li><img src="img/en blanco 2.png" height="85" width="122"></li>
-         <li><p><b>15+</b></p>
-            <p>Organizaciones colaboradoras</p></li>
-         <li><img src="img/en blanco 3.png" height="85" width="122"></li>
-         <li><p><b>35+</b></p>
-            <p>Voluntarios activos</p></li>
-         <li><img src="img/en blanco 4.png" height="85" width="122"></li>
-         <li><p><b>25+</b></p>
-            <p>Comunidades beneficiadas</p></li>
-      </ul>
-   </nav>
+    <link rel="stylesheet" href="css/estilos.css">
+</head>
 
-  <section class="solicitudes">
+<body>
 
-  <div class="encabezado-solicitudes">
-    <h2>Solicitudes recientes</h2>
-    <a href="#">Ver todas</a>
-  </div>
+    <header class="header contenedor">
 
-  <div class="lista-solicitudes">
+        <a href="index.html">
+            <img class="logo" src="img/logo.png" alt="Logo">
+        </a>
 
-    <article class="tarjeta-solicitud">
+        <nav>
+            <ul class="menu">
+                <li><a href="solicitudes.html">Solicitudes</a></li>
+                <li><a href="voluntarios.html">Voluntariados</a></li>
+                <li>
+                    <a class="boton boton-verde" href="iniciar-sesion.html">
+                        Iniciar sesión
+                    </a>
+                </li>
+            </ul>
+        </nav>
 
-      <img src="img/iglesia el rosario.png"alt="Iglesia El Rosario">
+    </header>
+    <main>
+        <section class="hero contenedor">
 
-      <div class="contenido-tarjeta">
-        <h3>Iglesia El Rosario</h3>
+            <div class="hero-contenido">
 
-        <p>San Miguel</p>
+                <h1>
+                    Conectamos<br>
+                    alimentos con<br>
+                    quienes más<br>
+                    lo <span>necesitan</span>
+                </h1>
+                
+                <p>Plataforma que une comunidades, empresas y voluntarios para combatir el hambre en El Salvador.</p>
 
-        <div class="etiquetas">
-          <span>Arroz</span>
-          <span>Frijoles</span>
-          <span>Leche</span>
-        </div>
+                <div class="grupo-botones">
+                    <a class="boton boton-verde" href="voluntarios.html">Quiero ayudar</a>
+                    <a class="boton boton-naranja" href="solicitudes.html">Necesito ayuda</a>
+                </div>
+            </div>
 
-        <a href="#" class="ver-detalles">Ver detalles</a>
-      </div>
+            <img class="hero-imagen" src="img/principal.png" alt="Personas compartiendo alimentos">
+        </section>
 
-    </article>
+        <section class="estadisticas contenedor">
 
-    <article class="tarjeta-solicitud">
+            <article class="estadistica">
+                <img src="img/primera 2.png" alt="">
+                <div>
+                    <strong>50+</strong>
+                    <p>familias apoyadas</p>
+                </div>
+            </article>
 
-      <img src="img/comunidad nuevo israel.png" alt="Comunidad Nuevo Israel">
+            <article class="estadistica">
+                <img src="img/segunda 2.png" alt="">
+                <div>
+                    <strong>15+</strong>
+                    <p>Organizaciones colaboradoras</p>
+                </div>
+            </article>
 
-      <div class="contenido-tarjeta">
-        <h3>Comunidad Nuevo Israel</h3>
+            <article class="estadistica">
+                <img src="img/tercera 2.png" alt="">
+                <div>
+                    <strong>35+</strong>
+                    <p>voluntarios activos</p>
+                </div>
+            </article>
 
-        <p>San Salvador</p>
+            <article class="estadistica">
+                <img src="img/cuarta 2.png" alt="">
+                <div>
+                    <strong>25+</strong>
+                    <p>Comunidades beneficiadas</p>
+                </div>
+            </article>
+        </section>
+        
+        <section class="solicitudes contenedor">
+            <div class="titulo-seccion">
+                <h2>Solicitudes recientes</h2>
+                <a href="solicitudes.html">Ver todas</a>
+            </div>
 
-        <div class="etiquetas">
-          <span>Azúcar</span>
-          <span>Aceite</span>
-          <span>Harina</span>
-        </div>
+            <div class="lista-tarjetas">
+                <article class="tarjeta">
+                    <img class="tarjeta-imagen" src="img/iglesi el rosario.png" alt="Iglesia El Rosario">
+                    <div class="tarjeta-contenido">
+                        <h3>Iglesia El Rosario</h3>
+                        <p>San Miguel</p>
+                        <div class="etiquetas">
+                            <span>Arroz</span>
+                            <span>Frijoles</span>
+                            <span>Leche</span>
+                        </div>
+                        <a class="enlace-verde" href="#"> Ver detalles</a>
+                    </div>
+                </article>
 
-        <a href="#" class="ver-detalles">Ver detalles</a>
-      </div>
+                <article class="tarjeta">
+                    <img class="tarjeta-imagen" src="img/comunidad nuevo israel 2.png" alt="Comunidad Nuevo Israel">
+                    <div class="tarjeta-contenido">
+                        <h3>Comunidad Nuevo Israel</h3>
+                        <p>San Salvador</p>
 
-    </article>
+                        <div class="etiquetas">
+                            <span>Azúcar</span>
+                            <span>Aceite</span>
+                            <span>Harina</span>
+                        </div>
+                        <a class="enlace-verde" href="#"> Ver detalles</a>
+                    </div>
+                </article>
+            </div>
+        </section>
+    </main>
 
-  </div>
+    <!-- Bootstrap JS -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.7/dist/js/bootstrap.bundle.min.js"></script>
 
-</section>
+    <!-- JavaScript -->
+    <script src="javascript/script.js"></script>
+</body>
+</html>
